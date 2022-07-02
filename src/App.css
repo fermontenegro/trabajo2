@@ -1,0 +1,117 @@
+.App {
+  text-align: left;
+}
+
+.contenedor1 {
+  background-image: url(./imagenes/fondo3.jpg);
+}
+
+.titulo1 {
+  text-align: center; 
+  font-family: Comic Sans MS; 
+  font-weight:bold; 
+  font-size: 30px; 
+  color: #EBD758; 
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+  }
+
+.texto1 {
+
+  color: aliceblue;
+  background-color: transparent;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+
+}
+
+.background {
+  padding: 15px;
+  background-color: #FFFFFF;
+  margin: 0px 100px 10px 100px;
+}
+
+.trans {
+  padding-left: 10px;
+  opacity: 1;
+}
+
+.img1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.imagen1 {
+  padding-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.titulo2{
+  text-align: center; 
+  font-family: Comic Sans MS; 
+  font-weight:bold; 
+  font-size: 30px; 
+  color: #EBD758; 
+  padding-bottom: 10px;
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
+
+.acoordion{
+  margin: 10px 100px 0px 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+.contenedor2{
+  background-image: url(./imagenes/fondo2.jpg);
+}
+
+.titulo3{
+  text-align: center; 
+  font-family: Comic Sans MS; 
+  font-weight:bold; 
+  font-size: 30px; 
+  color: #EBD758; 
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
+
+.carrusel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.imgcarrusel{
+  max-width: 800px;
+  max-height: auto;
+}
+
+.titulo4{
+  text-align: center; 
+  font-family: Comic Sans MS; 
+  font-weight:bold; 
+  font-size: 30px; 
+  color: #EBD758; 
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+
+}
+
+.iframe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
