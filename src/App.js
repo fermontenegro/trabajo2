@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './componentes/navbar';
 import Acordion from'./componentes/acordion';
 import Carrusel from './componentes/carrusel';
+import Maparea from './componentes/maparea';
 import fondo1 from './imagenes/fondo1.jpg';
 import imagen1 from './imagenes/ssHD.jpg';
 import fondoN from './imagenes/fondo3.jpg';
@@ -29,7 +30,10 @@ function App() {
           Más allá de este sistema, abundan estrellas, galaxias y toda la complejidad del Universo que el humano intenta conocer.</h5>
         </div>
 
-        <div className='img1'><img className='imagen1' src={c6} /></div>
+        <div className='carrusel' id='carrusel'>
+          <Carrusel/>
+
+        </div>
 
         <div id='aprende'> <h1 className='titulo2'>Aprende de nuestro Sistema Solar</h1></div>
 
@@ -41,17 +45,16 @@ function App() {
       </div>
 
       <div className='contenedor2'>
-        <div className='titulo3'><h1>Ve más de nuestro Sistema Solar</h1></div>
+        <div className='titulo3'><h1>Interactua con el Sistema Solar (da click en un lugar de interes)</h1></div>
 
-        <div className='carrusel' id='carrusel'>
-          <Carrusel/>
-
+        <div id='tour'>
+          <Maparea/>
         </div>
 
         <div className='titulo4' id='interesa'><h1>Te puede interesar</h1></div>
 
         <div className='iframe'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ati7Bq8FGQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="800" height="600" src="https://www.youtube.com/embed/Ati7Bq8FGQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
       </div>

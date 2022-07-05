@@ -1,4 +1,5 @@
 import React from "react";
+import './estilos.css';
 import c1 from'../imagenes/Solar_sys.jpg';
 import c2 from '../imagenes/c2.jpg';
 import c3 from '../imagenes/c3.jpg';
@@ -13,19 +14,19 @@ const Carrusel = () => {
           <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img className='imgcarrusel' src={c1} useMap="#ss" />
+                <img className='imgcarrusel' src={c1}  />
               </div>
               <div class="carousel-item">
-                <img className='imgcarrusel' src={c2} useMap="#mapsol"/>
+                <img className='imgcarrusel' src={c2} />
               </div>
               <div class="carousel-item">
-                <img className='imgcarrusel' src={c3} useMap="#tierra"/>
+                <img className='imgcarrusel' src={c3} />
               </div>
               <div class="carousel-item">
-                <img className='imgcarrusel' src={c4} useMap="#map"/>
+                <img className='imgcarrusel' src={c4} />
               </div>
               <div class="carousel-item">
-                <img className='imgcarrusel' src={c5} useMap="#map"/>
+                <img className='imgcarrusel' src={c5} />
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -37,14 +38,6 @@ const Carrusel = () => {
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
-        <map name="ss">
-          <area shape="circle" href="" coords="300,200,100" alt="" onClick={swal("este es el sitema solar")}/>
-        </map>
-
-        <map name="mapsol">
-          <area shape="circle" href="" coords="300,200,100" alt="" onClick={swal("Una de las imágenes, tomada por el Extreme Ultraviolet Imager (EUI), es la imagen de mayor resolución jamás tomada del disco completo del Sol y de su atmósfera exterior, la corona")}/>
-        </map>
 
         </div>
 

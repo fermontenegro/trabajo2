@@ -22,6 +22,9 @@ const Navbar = () => {
                 <a class="nav-link" href="#carrusel">Galeria</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#tour">Tour</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#interesa">Te interesa</a>
               </li>
             </ul>
