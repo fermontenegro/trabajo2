@@ -6,19 +6,19 @@ const Maparea = () => {
     return (
         <>
             {/* Sol */}
-            <div class="modal justify-content-center" id="modalSol">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste el Sol!</h4>
+            <div className="modal justify-content-center" id="modalSol">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste el Sol!</h4>
                             <button
                                 type="button"
-                                class="btn-close"
+                                className="btn-close"
                                 data-bs-dismiss="modal"
                             ></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             El Sol (del latín sol, solis, ‘dios Sol invictus’ o ‘sol’, Helios
                             en la mitología griega, a su vez de la raíz protoindoeuropea
                             sauel-, ‘brillar’)4​ es una estrella de tipo-G de la secuencia
@@ -32,13 +32,13 @@ const Maparea = () => {
                             de elementos, incluyendo el oxígeno, carbono, neón y hierro.
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Sol" target="_blank">
                                 Leer Mas
                             </a>
                             <button
                                 type="button"
-                                class="btn btn-danger"
+                                className="btn btn-danger"
                                 data-bs-dismiss="modal"
                             >
                                 Cerrar
@@ -49,19 +49,19 @@ const Maparea = () => {
             </div>
 
             {/* Tierra */}
-            <div class="modal justify-content-center" id="modalTierra">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Tierra!</h4>
+            <div className="modal justify-content-center" id="modalTierra">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Tierra!</h4>
                             <button
                                 type="button"
-                                class="btn-close"
+                                className="btn-close"
                                 data-bs-dismiss="modal"
                             ></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             La Tierra (del latín Terra,17​ deidad romana equivalente a Gea,
                             diosa griega de la feminidad y la fecundidad) es un planeta del
                             sistema solar que gira alrededor de su estrella —el Sol— en la
@@ -78,13 +78,13 @@ const Maparea = () => {
                             capa de ozono que junto con el campo magnético terrestre bloquean
                             la radiación solar dañina, permitiendo así la vida en la Tierra.
                         </div>
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Tierra" target="_blank">
                                 Leer Mas
                             </a>
                             <button
                                 type="button"
-                                class="btn btn-danger"
+                                className="btn btn-danger"
                                 data-bs-dismiss="modal"
                             >
                                 Cerrar
@@ -95,18 +95,18 @@ const Maparea = () => {
             </div>
 
             {/* Luna */}
-            <div class="modal justify-content-center" id="modalLunaTierra">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalLunaTierra">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste la Luna!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste la Luna!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             La Luna es el único satélite natural de la Tierra. Con un diámetro ecuatorial de 3476 km, es el
                             quinto satélite más grande del sistema solar, mientras que en cuanto al tamaño proporcional respecto
                             a su planeta es el satélite más grande: un cuarto del diámetro de la Tierra y 1/81 de su masa. Es,
@@ -117,9 +117,9 @@ const Maparea = () => {
                         </div>
 
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Luna" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -127,16 +127,16 @@ const Maparea = () => {
             </div>
 
             {/* Marte */}
-            <div class="modal justify-content-center" id="modalMarte">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalMarte">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Marte!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Marte!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             Marte es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño del sistema solar,
                             después de Mercurio. Recibió su nombre en homenaje al dios de la guerra de la mitología romana (Ares
                             en la mitología griega), y también es conocido como «el planeta rojo»3​4​ debido a la apariencia
@@ -148,9 +148,9 @@ const Maparea = () => {
                             y casquetes polares de la Tierra.
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Marte_(planeta)" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -158,25 +158,25 @@ const Maparea = () => {
             </div>
 
             {/* Jupiter */}
-            <div class="modal justify-content-center" id="modalJupiter">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalJupiter">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Jupiter!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Jupiter!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             Júpiter es el planeta más grande del sistema solar y el quinto en orden de lejanía al Sol.3​ Es un
                             gigante gaseoso que forma parte de los denominados planetas exteriores. Recibe su nombre del dios
                             romano Júpiter (Zeus en la mitología griega). Es uno de los objetos naturales más brillantes en un
                             cielo nocturno despejado, superado solo por la Luna, Venus y algunas veces Marte.4
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -184,16 +184,16 @@ const Maparea = () => {
             </div>
             
             {/* Saturno */}
-            <div class="modal justify-content-center" id="modalSaturno">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalSaturno">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Saturno!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Saturno!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo en tamaño y masa
                             después de Júpiter y el único con un sistema de anillos visible desde la Tierra. Su nombre proviene
                             del dios romano Saturno. Forma parte de los denominados planetas exteriores o gaseosos. El aspecto
@@ -204,9 +204,9 @@ const Maparea = () => {
                             que se trataba de grandes lunas.
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Saturno_(planeta)" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -214,16 +214,16 @@ const Maparea = () => {
             </div>
 
             {/* Urano */}
-            <div class="modal justify-content-center" id="modalUrano">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalUrano">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Urano!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Urano!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             Urano es el séptimo planeta del sistema solar, el tercero de mayor tamaño, y el cuarto más masivo.
                             Se llama así en honor de la divinidad griega del cielo Urano (del griego antiguo Οὐρανός), el padre
                             de Crono (Saturno) y el abuelo de Zeus (Júpiter). Aunque es detectable a simple vista en el cielo
@@ -233,9 +233,9 @@ const Maparea = () => {
                             historia moderna. Urano es también el primer planeta descubierto por medio de un telescopio.
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Urano_(planeta)" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -243,16 +243,16 @@ const Maparea = () => {
             </div>
 
             {/* Neptuno */}
-            <div class="modal justify-content-center" id="modalNeptuno">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalNeptuno">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Neptuno!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Neptuno!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             Neptuno es el octavo planeta en distancia respecto al Sol y el más lejano del sistema solar. Forma
                             parte de los denominados planetas exteriores, y dentro de estos, es uno de los gigantes helados, y
                             es el primero que fue descubierto gracias a predicciones matemáticas. Su nombre fue puesto en honor
@@ -263,9 +263,9 @@ const Maparea = () => {
                             Neptuno.
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Neptuno_(planeta)" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -273,16 +273,16 @@ const Maparea = () => {
             </div>
 
             {/* Pluton */}
-            <div class="modal justify-content-center" id="modalPluton">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalPluton">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Pluton!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Pluton!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             Plutón, designado (134340) Pluto, es un planeta enano del sistema solar situado a continuación de la
                             órbita de Neptuno. Su nombre se debe al dios mitológico romano Plutón (Hades según la mitología
                             griega). En la Asamblea General de la Unión Astronómica Internacional celebrada en Praga el 24 de
@@ -294,9 +294,9 @@ const Maparea = () => {
                             categoría.
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Plut%C3%B3n_(planeta_enano)" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -304,16 +304,16 @@ const Maparea = () => {
             </div>
 
             {/* Cometa */}
-            <div class="modal justify-content-center" id="modalCometa">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalCometa">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header justify-content-center">
-                            <h4 class="modal-title justify-content-center">¡Seleccionaste Cometa Halley!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header justify-content-center">
+                            <h4 className="modal-title justify-content-center">¡Seleccionaste Cometa Halley!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             El cometa Halley, oficialmente denominado 1P/Halley, es un cometa grande y brillante que orbita
                             alrededor del Sol cada 75 años en promedio; su período orbital puede oscilar entre 74 y 79 años.2
                             Es uno de los mejor conocidos y más brillantes cometas de "periodo corto" de la nube de Oort. Halley
@@ -322,9 +322,9 @@ const Maparea = () => {
                             muchas referencias de sus apariciones, siendo el mejor documentado.
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Cometa_Halley" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -332,16 +332,16 @@ const Maparea = () => {
             </div>
 
             {/* Mercurio */}
-            <div class="modal justify-content-center" id="modalMercurio">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalMercurio">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Mercurio!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Mercurio!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             Mercurio es el planeta del sistema solar más cercano al Sol y el más pequeño. Forma parte de los
                             denominados planetas interiores y carece de satélites naturales al igual que Venus. Se conocía muy
                             poco sobre su superficie hasta que fue enviada la sonda planetaria Mariner 10 y se hicieron
@@ -352,9 +352,9 @@ const Maparea = () => {
                             campo magnético.
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -362,16 +362,16 @@ const Maparea = () => {
             </div>
 
             {/* Venus */}
-            <div class="modal justify-content-center" id="modalVenus">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalVenus">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Venus!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Venus!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             Venus es el segundo planeta del sistema solar en orden de proximidad al Sol y el tercero en cuanto a
                             tamaño en orden ascendente después de Mercurio y Marte. Al igual que Mercurio, carece de satélites
                             naturales. Recibe su nombre en honor a Venus, la diosa romana del amor (en la Antigua Grecia,
@@ -382,9 +382,9 @@ const Maparea = () => {
                             temperatura media de Venus es de 463,85 °C).
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Venus_(planeta)" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -392,24 +392,24 @@ const Maparea = () => {
             </div>
 
             {/* Cinturón */}
-            <div class="modal justify-content-center" id="modalcinturon">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div className="modal justify-content-center" id="modalcinturon">
+                <div className="modal-dialog">
+                    <div className="modal-content">
 
-                        <div class="modal-header">
-                            <h4 class="modal-title">¡Seleccionaste Cinturón de asteroides!</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header">
+                            <h4 className="modal-title">¡Seleccionaste Cinturón de asteroides!</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
-                        <div class="modal-body">
+                        <div className="modal-body">
                             El cinturón de asteroides es un disco circunestelar del sistema solar que se encuentra entre las órbitas de Marte y Júpiter. 
                             Alberga multitud de objetos astronómicos, denominados asteroides, y al planeta enano Ceres. Esta región también se denomina cinturón principal con la 
                             finalidad de distinguirla de otras agrupaciones de cuerpos menores del sistema solar, como el cinturón de Kuiper o la nube de Oort.
                         </div>
 
-                        <div class="modal-footer justify-content-center">
+                        <div className="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Cintur%C3%B3n_de_asteroides" target="_blank">Leer Mas</a>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
                     </div>
@@ -530,7 +530,7 @@ const Maparea = () => {
 
             </map>
             <div className="container-tour">
-                <div class="cardtour">
+                <div className="cardtour">
                     <img usemap="#infographic" src={Tour} alt="MDN infographic" />
                 </div>
             </div>
