@@ -182,7 +182,8 @@ const Maparea = () => {
                     </div>
                 </div>
             </div>
-
+            
+            {/* Saturno */}
             <div class="modal justify-content-center" id="modalSaturno">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -212,6 +213,7 @@ const Maparea = () => {
                 </div>
             </div>
 
+            {/* Urano */}
             <div class="modal justify-content-center" id="modalUrano">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -240,6 +242,7 @@ const Maparea = () => {
                 </div>
             </div>
 
+            {/* Neptuno */}
             <div class="modal justify-content-center" id="modalNeptuno">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -269,6 +272,7 @@ const Maparea = () => {
                 </div>
             </div>
 
+            {/* Pluton */}
             <div class="modal justify-content-center" id="modalPluton">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -299,6 +303,7 @@ const Maparea = () => {
                 </div>
             </div>
 
+            {/* Cometa */}
             <div class="modal justify-content-center" id="modalCometa">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -326,6 +331,7 @@ const Maparea = () => {
                 </div>
             </div>
 
+            {/* Mercurio */}
             <div class="modal justify-content-center" id="modalMercurio">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -355,6 +361,7 @@ const Maparea = () => {
                 </div>
             </div>
 
+            {/* Venus */}
             <div class="modal justify-content-center" id="modalVenus">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -377,6 +384,31 @@ const Maparea = () => {
 
                         <div class="modal-footer justify-content-center">
                             <a href="https://es.wikipedia.org/wiki/Venus_(planeta)" target="_blank">Leer Mas</a>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* Cinturón */}
+            <div class="modal justify-content-center" id="modalcinturon">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h4 class="modal-title">¡Seleccionaste Cinturón de asteroides!</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            El cinturón de asteroides es un disco circunestelar del sistema solar que se encuentra entre las órbitas de Marte y Júpiter. 
+                            Alberga multitud de objetos astronómicos, denominados asteroides, y al planeta enano Ceres. Esta región también se denomina cinturón principal con la 
+                            finalidad de distinguirla de otras agrupaciones de cuerpos menores del sistema solar, como el cinturón de Kuiper o la nube de Oort.
+                        </div>
+
+                        <div class="modal-footer justify-content-center">
+                            <a href="https://es.wikipedia.org/wiki/Cintur%C3%B3n_de_asteroides" target="_blank">Leer Mas</a>
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                         </div>
 
@@ -486,6 +518,14 @@ const Maparea = () => {
                     href="https://es.wikipedia.org/wiki/Venus_(planeta)" 
                     data-bs-toggle="modal" 
                     data-bs-target="#modalVenus"
+                />
+                <area 
+                    shape="circle" 
+                    coords="190,580, 70" 
+                    target="_blank" 
+                    href="https://es.wikipedia.org/wiki/Cintur%C3%B3n_de_asteroides" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#modalcinturon"
                 />
 
             </map>
