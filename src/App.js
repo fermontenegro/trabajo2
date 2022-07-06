@@ -45,7 +45,7 @@ function App() {
       </div>
 
       <div className='contenedor2'>
-        <div className='titulo3'><h1>Interactua con el Sistema Solar (da click en un lugar de interes)</h1></div>
+        <div className='titulo3'><h1>Interactua con el Sistema Solar (da click en un lugar de interés)</h1></div>
 
         <div id='tour'>
           <Maparea/>
